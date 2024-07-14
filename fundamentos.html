@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Fundamentos</title>
+    <style>
+      .flex-container {
+        display: flex;
+        /*flex-direction: row; /*valor por defecto*/
+        /* flex-direction: column; */
+        flex-flow: row nowrap;
+        /* eje principal*/
+        /*justify-content: flex-end;
+           /*justify-content: space-around;*/
+        justify-content: center;
+        /*eje secundrio*/
+        /*align-items: flex-start;
+           align-items: flex-end;
+           align-items: stretch;*/
+        align-items: center;
+      }
+      
+      .item2{
+        align-self: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container flex-h">
+      <div class="items item1">1</div>
+      <div class="items item2">2</div>
+      <div class="items item3">3</div>
+      <div class="items item4">4</div>
+      <div class="items item5">5</div>
+      <div class="items item6">6</div>
+      <div class="items item7">7</div>
+      <div class="items item8">8</div>
+      <div class="items item9">9</div>
+      <div class="items item10">10</div>
+      <div class="items item11">11</div>
+      <div class="items item12">12</div>
+    </div>
+  </body>
+</html>

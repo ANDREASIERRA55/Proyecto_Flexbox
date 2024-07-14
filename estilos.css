@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajusta esto según tus necesidades */
+    background: rgb(242, 240, 240);
+    padding: 50px; /* Ajuste de padding para que sea más razonable */
+    border: 2px solid #000;
+}
+
+.flex-h {
+    height: 500px;
+}
+
+.items {
+    background: #21aef0;
+    width: 100px; /* Ajusta el ancho para que los elementos sean visibles como bloques */
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+}
