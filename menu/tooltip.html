@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <link rel="stylesheet" href="img.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body{
+            display: flex
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #FFD107
+
+            
+        }
+
+        nav{
+            position: relative;
+            width: 60px;
+            height: 300px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        
+        /* nav a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        nav .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+
+        nav .title {
+            font-size: 16px;
+        } */
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">
+            <img src="img/inicio.png" alt="Inicio Icon" class="icon">
+            <span class="title">Inicio</span>
+        </a>
+        <a href="#">
+            <img src="img/usuario.png" alt="Usuario Icon" class="icon">
+            <span class="title">Usuario</span>
+        </a>
+        <a href="#">
+            <img src="img/mensaje.png" alt="Mensaje Icon" class="icon">
+            <span class="title">Mensaje</span>
+        </a>
+        <a href="#">
+            <img src="img/ayuda.png" alt="ayuda Icon" class="icon">
+            <span class="title">Ayuda</span>
+        </a>
+        <a href="#">
+            <img src="img/configuracion.png" alt="configuracion Icon" class="icon">
+            <span class="title">Configuracion</span>
+        </a>
+    </nav>
+    
+</body>
+</html>
